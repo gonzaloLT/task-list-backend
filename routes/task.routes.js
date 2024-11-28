@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const tasks = require('../task.json');
 
-// Obtener todas las tareas
+// Obtener todas las tareas 
 router.get('/', (req, res) => {
     res.status(200).json(tasks);
 });
